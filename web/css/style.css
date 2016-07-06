@@ -1582,115 +1582,155 @@ span.menu {
     font-size: 0.85em;
 }
 }
-@media(max-width:320px){
-.address1 h5 {
-    font-size: 0.75em;
+@media(max-width:320px) {
+    .address1 h5 {
+        font-size: 0.75em;
+    }
+
+    .address1 p {
+        font-size: 0.75em;
+    }
+
+    .call h5 {
+        font-size: 0.7em;
+    }
+
+    .address1 {
+        width: 56%;
+        margin-right: 2%;
+    }
+
+    .sb-search {
+        right: 2%;
+        top: 15%;
+    }
+
+        .sb-search.sb-search-open, .no-js .sb-search {
+            width: 90%;
+        }
+
+    .banner {
+        min-height: 213px;
+        padding-top: 3em;
+    }
+
+    .rslides h2 {
+        font-size: 2em;
+    }
+
+    .rslides h3 {
+        font-size: 0.9em;
+    }
+
+    ul.callbacks_tabs.callbacks1_tabs {
+        left: 37%;
+        bottom: -72%;
+    }
+
+    .welcome-top h3, .mission h3 {
+        font-size: 1.7em;
+    }
+
+    .blog1 h4 a {
+        font-size: 0.9em;
+        margin: 1em 0 0.5em 0;
+    }
+
+    .join h3 {
+        font-size: 1.4em;
+        line-height: 1.4em;
+    }
+
+    .join p {
+        line-height: 1.6em;
+    }
+
+    .project h4 {
+        font-size: 1.2em;
+    }
+
+    .links {
+        margin-top: 1em;
+    }
+
+        .links ul li a {
+            font-size: 0.9em;
+        }
+
+    .bottom-right-grid {
+        margin-top: 1em;
+    }
+
+    .news-ltr {
+        margin: 1em 0;
+    }
+
+        .news-ltr form {
+            margin-top: 1em;
+        }
+
+            .news-ltr form input[type="text"] {
+                width: 100%;
+                margin-bottom: 1em;
+            }
+
+            .news-ltr form input[type="submit"] {
+                width: 38%;
+                padding: 9px 12px;
+            }
+
+    .icons {
+        float: none;
+        margin-top: 1em;
+    }
+
+    .social-grid {
+        float: none;
+        margin-right: 0;
+    }
+
+    .copywrite p {
+        font-size: 0.85em;
+    }
+
+    .chrt_grid {
+        padding: 0;
+    }
+
+    .grid_4 {
+        width: 100%;
+        margin: 0 0% 7% 0;
+    }
+
+    .table td, .table > tbody > tr > td, .table > tbody > tr > th, .table > tfoot > tr > td, .table > tfoot > tr > th, .table > thead > tr > td, .table > thead > tr > th {
+        padding: 11px !important;
+    }
+
+    .gallery-grid {
+        position: relative;
+        width: 100%;
+        margin-bottom: 2em;
+        padding: 0;
+    }
+
+    .contact-right input[type="submit"] {
+        width: 33%;
+    }
+
+    .map iframe {
+        height: 190px;
+    }
+
+    .contact-grids-info {
+        margin-top: 1.5em;
+    }
 }
-.address1 p {
-    font-size: 0.75em;
-}
-.call h5 {
-    font-size: 0.7em;
-}
-.address1 {
-    width: 56%;
-    margin-right: 2%;
-}
-.sb-search {
-    right: 2%;
-    top: 15%;
-}
-.sb-search.sb-search-open, .no-js .sb-search {
-    width: 90%;
-}
-.banner {
-    min-height: 213px;
-    padding-top: 3em;
-}
-.rslides h2 {
-    font-size: 2em;
-}
-.rslides h3 {
-    font-size: 0.9em;
-}
-ul.callbacks_tabs.callbacks1_tabs {
-    left: 37%;
-	    bottom: -72%;
-}
-.welcome-top h3, .mission h3 {
-    font-size: 1.7em;
-}
-.blog1 h4 a {
-    font-size: 0.9em;
-    margin: 1em 0 0.5em 0;
-}
-.join h3 {
-    font-size: 1.4em;
-    line-height: 1.4em;
-}
-.join p {
-    line-height: 1.6em;
-}
-.project h4 {
-    font-size: 1.2em;
-}
-.links {
-    margin-top: 1em;
-}
-.links ul li a {
-    font-size: 0.9em;
-}
-.bottom-right-grid {
-    margin-top: 1em;
-}
-.news-ltr {
-    margin: 1em 0;
-}
-.news-ltr form {
-    margin-top: 1em;
-}
-.news-ltr form input[type="text"] {
-    width: 100%;
-	margin-bottom:1em;
-}
-.news-ltr form input[type="submit"] {
-    width: 38%;
-    padding: 9px 12px;
-}
-.icons {
-    float: none;
-    margin-top: 1em;
-}
-.social-grid {
-    float: none;
-    margin-right:0;
-}
-.copywrite p {
-    font-size: 0.85em;
-}
-.chrt_grid {
-    padding: 0;
-}
-.grid_4 {
-    width: 100%;
-    margin: 0 0% 7% 0;
-}
-.table td, .table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
-    padding: 11px!important;
-}
-.gallery-grid {
-    position: relative;
-    width: 100%;
-    margin-bottom: 2em;
-    padding: 0;
-}
-.contact-right input[type="submit"] {
-    width: 33%;
-}
-.map iframe {
-    height: 190px;
-}
-.contact-grids-info {
-    margin-top: 1.5em;
-}
+
+.titulo1{
+    color:#FF008C;
+    font-size:2.0em;
+    margin-top:0em;
+
+
+
 }
