@@ -308,29 +308,30 @@ ul.callbacks_tabs.callbacks1_tabs {
 }
 /*----*/
 .welcome {
-    padding: 4em 0;
+    padding: 5em 0;
 }
 .welcome-top{
 	text-align:center;
 }
 .welcome-top h3,.mission h3{
     color: #FF008C;
-    font-size: 2.5em;
+    font-size: 3em;
     margin: 0;
     font-family: 'Dosis-Regular';
 	text-align:center;
 }
 .welcome-top h4 {
-    font-size: 1.7em;
+    font-size: 2.5em;
     margin: 0.7em 0 0;
     color: #666;
    font-family: 'Dosis-Regular';
    font-weight:500;
+   font-weight:bold;
 }
 .welcome-top p {
-    font-size: 1em;
+    font-size: 1.7em;
     line-height: 1.8em;
-    color: #999;
+    color: #666;
         margin: 1em auto;
     width: 80%;
 }
@@ -1304,7 +1305,7 @@ span.menu{
 	font-weight:600;
 }
 .top-menu {
-	width:100;
+	width:100%;
 	float: none;
 }
 .top-menu  ul{
