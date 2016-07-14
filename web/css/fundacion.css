@@ -1,5 +1,4 @@
-﻿body {
-}
+﻿
 @font-face{
     src:url(../fonts/fundacion/bolina/Bolina.otf);
     font-family:bolina;
@@ -22,13 +21,32 @@
     font-family:bolina;
 }
 
+@font-face{
+    src:url('../fonts/fundacion/social_circles/Social Circles.otf');
+    font-family:socialcircles;
+}
+@font-face{
+    src:url(../fonts/fundacion/tabitha.ttf);
+    font-family:tabitha;
+}
+@font-face{
+    src:url(../fonts/fundacion/socialtype/SocialType.ttf);
+    font-family:socialtype;
+}
+
 .encabezado{
     background:#333;
-	padding:0em 0 1em;
+	padding:0em 0em 0em;
 }
 
 .maya{
     display:inline-block;
+    
+}
+
+.maya1{
+    display:inline-block;
+    line-height: 10px;
 }
 
 .titulofundacion{
@@ -40,6 +58,80 @@
     text-align:center;
 }
 
+
+
+
+/*-- search-ends --*/
+.top-menu1{
+	text-align:center;
+}
+.top-menu1 ul li{
+	display:inline-block;
+	margin-top:0em;
+}
+.top-menu1 ul li a{
+	font-size:1.1em;
+	display:block;
+	padding:0px 10px;
+	margin:0 0.1em;
+	color:#fff;
+	text-decoration:none;
+}
+.top-menu1 ul li.active a,.top-menu1 ul li a:hover{
+	color:#FF008C;
+}
+span.menu1{
+	display: none;
+}
+
+@media (max-width: 640px){
+span.menu{
+	display: block;
+  text-align: right;
+  padding-bottom: 0.5em;
+  cursor: pointer;	
+  position:relative;
+}
+.top-menu1 span.menu{
+	display:block;
+	color:#fff;
+	text-align: center;
+	font-size:1.1em;
+	font-weight:600;
+}
+.top-menu1 {
+	width:100%;
+	float: none;
+}
+.top-menu1  ul{
+	display:none;
+}
+.top-menu1  ul li {
+	font-size: 12px;
+	display:inline-block;
+	width: 100%;
+	margin:0;
+}
+.top-menu1 ul li a {
+	padding:12px 0;
+	font-size: 1.2em;
+	width: 100%;
+	margin:0;
+}
+.top-menu1  ul{
+	margin: 0;
+	z-index: 999;
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	left: 0%;	
+	background:#333;
+	    padding: 10px 0;
+}
+
+}
+
+
 .textmenu{
     font-size:2em;
     margin-bottom:3em;
@@ -50,3 +142,14 @@
     text-align:justify;
    
 }
+
+.socialmedia{
+    font-family: socialtype;
+    font-size: 5em;
+}
+
+.socialmedia2{
+    font-family: socialcircles;
+    font-size: 2em;
+}
+
