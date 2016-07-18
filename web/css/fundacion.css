@@ -41,44 +41,68 @@
 
 .maya{
     display:inline-block;
-    
+    margin:20px 10px;
+
 }
 
 .maya1{
     display:inline-block;
-    line-height: 10px;
+    padding:30px 30px;
+    margin:50px 50px;
+
+}
+
+
+.logotipo{
+    top:0px;
+
 }
 
 .titulofundacion{
     color:white;
-    font-size:90px;
-    font-family:bolina;
+    font-size:70px;
     margin:0px 0px 0px 5px;
     padding:0px 0px 0px 0px;
+    font-weight:bold;
+    font-family:tabitha;
     text-align:center;
 }
 
+.titulo1{
 
+}
+
+.tabitha{
+    font-family:tabitha;
+    color:#FF008C;
+    font-size:5em;
+    text-align:center;
+
+}
 
 
 /*-- search-ends --*/
 .top-menu1{
 	text-align:center;
+    position:fixed;
+    left:10px;
+    bottom:0px;
 }
 .top-menu1 ul li{
-	display:inline-block;
+	display:inline;
 	margin-top:0em;
 }
 .top-menu1 ul li a{
-	font-size:1.1em;
+	font-size:0.8em;
 	display:block;
-	padding:0px 10px;
-	margin:0 0.1em;
-	color:#fff;
+	padding:0px 0px;
+	margin:0 0.0em;
+    color:#FF008C;
+
 	text-decoration:none;
 }
 .top-menu1 ul li.active a,.top-menu1 ul li a:hover{
-	color:#FF008C;
+    color:#000;
 }
 span.menu1{
 	display: none;
@@ -107,14 +131,14 @@ span.menu{
 	display:none;
 }
 .top-menu1  ul li {
-	font-size: 12px;
+	font-size: 6px;
 	display:inline-block;
 	width: 100%;
 	margin:0;
 }
 .top-menu1 ul li a {
 	padding:12px 0;
-	font-size: 1.2em;
+	font-size: 0.7em;
 	width: 100%;
 	margin:0;
 }
@@ -145,7 +169,7 @@ span.menu{
 
 .socialmedia{
     font-family: socialtype;
-    font-size: 5em;
+    font-size: 5.4em;
     letter-spacing:0.1em;
 }
 
