@@ -2940,6 +2940,7 @@ input[type="button"].btn-block {
 }
 .glyphicon-earphone:before {
   content: "\e182";
+  
 }
 .glyphicon-phone-alt:before {
   content: "\e183";

@@ -388,7 +388,7 @@ ul.callbacks_tabs.callbacks1_tabs {
   transform: scale(1);
 }
 .glyphicon-heart,.glyphicon-asterisk,.glyphicon-flag{
-	color:#C7C7C7;
+	color:#FF008C;
   font-size:35px;
 }
 .glyphicon-icon {
@@ -1107,6 +1107,7 @@ input[type="text"]:hover, .contact-right textarea:hover  {
     line-height: 1;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    font-size:1.8em;
 }
 /*--responsive--*/
 @media (max-width: 1440px){
