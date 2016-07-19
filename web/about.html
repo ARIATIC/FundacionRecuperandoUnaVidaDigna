@@ -24,96 +24,70 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 </head>
 <body>
     <!---->
-    <div class="header">
+
+    <header class="encabezado">
 
         <div class="maya">
-            <a href="index.html">
-                <span class="titulofundacion maya1">Fundación</span>
-                <p class="titulo1">Recuperando una vida digna</p>
+
+            <a href="index.html" class="logotipo">
+                <h2 class="titulofundacion maya1">Fundación</h2>
+                <h4 class="titulo1">Recuperando una vida digna</h4>
             </a>
+
         </div>
         <div class="maya">
-            
+            <a class="socialmedia" href="">Y</a>
+
+
         </div>
+
         <div class="maya">
             <div class="header-top">
-                <div class="hdr-address">
-                    <div class="address1">
 
-                    </div>
+                <div class="top-menu1">
+                    <span class="menu1">SOCIAL</span>
 
-                    <p class="textfundacion"></p>
+                    <ul class="socialmedia">
+                        <li><a href="https://twitter.com/Rvidadigna">A</a></li>
+                        <li><a href="https://www.facebook.com/recuperando.unavidadigna">B</a></li>
+                        <li><a href="https://plus.google.com/u/0/114575004802060829452/posts">C</a></li>
+                        <li><a href="https://www.youtube.com/channel/UCxZM-5eTCwIT9aloMJXSlDg">F</a></li>
+                        <li><a href="">W</a></li>
+                        <li><a href="https://www.instagram.com/recuperandovidadigna/">V</a></li>
+                    </ul>
                 </div>
-                <div class="call">
-                    <h5></h5>
-                    <p></p>
+                <div class="top-menu">
+                    <span class="menu">MENU</span>
+                    <ul>
+                        <li><a href="index.html"><span class="glyphicon glyphicon-home" aria-hidden="true"></span>Inicio</a></li>
+                        <li class="active"><a href="about.html"><span class="glyphicon glyphicon-user" aria-hidden="true"></span>Quienes Somos</a></li>
+                        <li><a href="shortcodes.html"><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>Nuetra Labor</a></li>
+                        <li><a href="gallery.html"><span class="glyphicon glyphicon-comment" aria-hidden="true"></span>Testimonios</a></li>
+                        <li><a href="como_ayudar.html"><span class="glyphicon glyphicon-heart-empty" aria-hidden="true"></span>Cómo Ayudar</a></li>
+                        <li><a href="contact.html"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>Contacto</a></li>
+                    </ul>
                 </div>
+
+
+                <!-- script-for-menu -->
+                <script>
+
+					$("span.menu").click(function(){
+						$(".top-menu ul").slideToggle("slow" , function(){
+						});
+					});
+                </script>
+                <!-- script-for-menu -->
                 <div class="clearfix"></div>
             </div>
-            <div class="search">
-                <div class="search-box">
-                    <div id="sb-search" class="sb-search">
-                        <form>
-                            <input class="sb-search-input" placeholder="search term..." type="search" name="search" id="search">
-                            <input class="sb-search-submit" type="submit" value="">
-                            <span class="sb-icon-search"> </span>
-                        </form>
-                    </div>
-                </div>
-            </div>
-            <div class="clearfix"> </div>
-            <!-- search-scripts -->
-            <script src="js/classie.js"></script>
-            <script src="js/uisearch.js"></script>
-            <script>
-                new UISearch(document.getElementById('sb-search'));
-            </script>
-            <!-- //search-scripts -->
         </div>
-      <div class="maya"><img src="images/fenix.png" alt="FENIX"></div>
-   
-    <div class="maya">
-        <div class="header-top">
 
-            <div class="top-menu1">
-				<span class="menu1">SOCIAL</span>
-
-                <ul class="socialmedia">
-                    <li><a href="index.html">A</a></li>
-                    <li><a href="about.html">B</a></li>
-                    <li><a href="shortcodes.html">C</a></li>
-                    <li><a href="gallery.html">F</a></li>
-                    <li><a href="gallery.html">W</a></li>
-                    <li><a href="contact.html">V</a></li>
-                </ul>
-            </div>
-      
-        <div class="top-menu">
-				<span class="menu">MENU</span>
-                <ul>
-                    <li><a href="index.html"><span class="glyphicon glyphicon-home" aria-hidden="true"></span>Inicio</a></li>
-                    <li class="active"><a href="about.html"><span class="glyphicon glyphicon-user" aria-hidden="true"></span>Quienes Somos</a></li>
-                    <li><a href="shortcodes.html"><span class="glyphicon glyphicon-calendar" aria-hidden="true"></span>Nuetra Labor</a></li>
-                    <li><a href="gallery.html"><span class="glyphicon glyphicon-picture" aria-hidden="true"></span>Testimonios</a></li>
-                    <li><a href="gallery.html"><span class="glyphicon glyphicon-picture" aria-hidden="true"></span>Cómo Ayudar</a></li>
-                    <li><a href="contact.html"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>Contacto</a></li>
-                </ul>
-            </div>
-ipt-for-menu -->
-        <script>
-            $("span.menu").click(function () {
-                $(".top-menu ul").slideToggle("slow", function () {
-                });
-            });
-        </script>
-        <!-- script-for-menu -->
-        <div class="clearfix"></div>
-    </div>
-        </div>
+    </header>   
+        
         <!---->
         <div class="about">
             <div class="container">
-                <h2> Acerca de nosotros</h2>
+                <h1 class="tabitha"> Acerca de nosotros</h1>
                 <div class="about-grids">
                     <div class="col-md-6 about-info">
                         <h3></h3>
@@ -221,7 +195,7 @@ ipt-for-menu -->
         <!---->
         <div class="copywrite">
             <div class="container">
-                <p> © 2015 Charity. All rights reserved | Design by <a href="http://w3layouts.com/">W3layouts</a></p>
+                <p> © 2016 Recuperando una vida digna. All rights reserved | Design by <a href="http://w3layouts.com/">ARIATIC</a></p>
             </div>
         </div>
         <!---->
