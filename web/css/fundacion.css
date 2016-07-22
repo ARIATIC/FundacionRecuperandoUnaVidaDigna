@@ -206,3 +206,16 @@ span.menu{
     font-weight:bold;
 
 }
+
+.imagenLogo{
+    position: relative;
+  top: -15px;
+  display: inline-block;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  font-size: 3em;
+  margin-bottom:0px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
