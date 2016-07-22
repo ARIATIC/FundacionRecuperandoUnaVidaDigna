@@ -411,9 +411,9 @@ ul.callbacks_tabs.callbacks1_tabs {
    font-family: 'Dosis-Medium';
 }
 .chrty p {
-    font-size: 1em;
+    font-size: 1.4em;
     line-height: 1.8em;
-    color: #999;
+    color: #333;
 }
 /*--mission--*/
 .mission{
@@ -552,10 +552,9 @@ ul.callbacks_tabs.callbacks1_tabs {
 	color: #FF008C;
 }
 .event-pic-info h4 a{
-    color: #333;
-    font-size: 1.1em;
-	font-family: 'Dosis-Medium';
-    text-decoration: none;
+    color: #868686;
+    font-size: 1em;
+	text-decoration: none;
 }
 .event-pic-info h4 a:hover,.blog1 h4 a:hover{
 	color: #FF008C;
@@ -782,7 +781,7 @@ margin-top:3em;
 }
 .team h3{
 	color: #FF008C;
-    font-size: 2.5em;
+    font-size:2.5em;
     font-family: 'Dosis-Regular';
 	text-align:center;
 }
@@ -792,9 +791,10 @@ margin-top:3em;
 	margin: 0 3% 0% 0;
 }
 .team-grid p {
-font-size: 1em;
+font-size: 1.4em;
   line-height: 1.8em;
-  color: #999;
+  color: #333;
+  text-align:left;
 }
 .team-grid img {
 	width: 100%;
@@ -1733,4 +1733,10 @@ span.menu {
     color:#FF008C;
     font-size:1.5em;
     margin:0px 0px 0px 5px;
+}
+
+.objetivos{
+   font-size: 1.4em;
+  color: #333;
+  text-align:left;
 }
