@@ -226,12 +226,46 @@ span.menu{
   display: block;
 }
 /*--banner--*/
+@keyframes cf3FadeInOut {
+  0% {
+	background:url(../images/bnr3.jpg) no-repeat 0px 0px;
+
+}
+33% {
+background:url(../images/bnr3.jpg) no-repeat 0px 0px;
+
+}
+66% {
+background:url('https://www.telemundo.com/sites/nbcutelemundo/files/images/media_gallery_cover/2015/08/26/tres-perros-en-un-sofa.jpg') no-repeat 0px 0px;
+
+}
+100% {
+	background:url('../images/bnr3.jpg') no-repeat 0px 0px;
+
+}
+}
+
+#cf3 img.top {
+animation-name: cf3FadeInOut;
+animation-timing-function: ease-in-out;
+animation-iteration-count: infinite;
+animation-duration: 2s;
+animation-direction: unset;
+}
+
+
+
 .banner{
 	background:url(../images/bnr3.jpg) no-repeat 0px 0px;
 	background-size:cover;
 	min-height:650px;
 	padding-top:17em;
 	text-align:center;
+    animation-name: cf3FadeInOut;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-duration: 6s;
+    animation-direction: unset;
 }
 .banner h2{
 	color:#fff;
