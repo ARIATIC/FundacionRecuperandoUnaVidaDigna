@@ -264,7 +264,7 @@ animation-direction: unset;
     animation-name: cf3FadeInOut;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
-    animation-duration: 6s;
+    animation-duration: 10s;
     animation-direction: unset;
 }
 .banner h2{
