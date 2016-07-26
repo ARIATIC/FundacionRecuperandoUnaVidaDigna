@@ -219,3 +219,9 @@ span.menu{
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+.ayudar{
+    font-size:2em;
+    color:#FF008C;
+    font-family:tabitha;
+    text-align:left;
+}
