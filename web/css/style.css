@@ -227,26 +227,20 @@ span.menu{
 }
 /*--banner--*/
 @keyframes cf3FadeInOut {
-  0% {
-	background:url('../images/bnr3.jpg') no-repeat 0px 0px;
+    0% {
+        background: url('../images/bnr3.jpg') no-repeat 0px 0px;
+    }
 
-}
-33% {
-background:url('../images/Slide 3.jpg') no-repeat 0px 0px;
+    33% {
+        background: url('../images/Slide 3.jpg') no-repeat 0px 0px;
+    }
 
-}
-33% {
-background:url('..https://pixabay.com/es/anciano-meditando-su-vida-1425733/') no-repeat 0px 0px;
-
-}
-33% {
-background:url('https://www.telemundo.com/sites/nbcutelemundo/files/images/media_gallery_cover/2015/08/26/tres-perros-en-un-sofa.jpg') no-repeat 0px 0px;
-
-}
-100% {
-	background:url('../images/bnr3.jpg') no-repeat 0px 0px;
-
-}
+    66% {
+        background: url('https://www.telemundo.com/sites/nbcutelemundo/files/images/media_gallery_cover/2015/08/26/tres-perros-en-un-sofa.jpg') no-repeat 0px 0px;
+    }
+      100% {
+        background: url('../images/bnr3.jpg') no-repeat 0px 0px;
+    }
 }
 
 #cf3 img.top {
@@ -260,7 +254,7 @@ animation-direction: unset;
 
 
 .banner{
-	background:url('../images/Slide 3.jpg') no-repeat 0px 0px;
+	background:url('../images/bnr3.jpg') no-repeat 0px 0px;
 	background-size:cover;
 	min-height:650px;
 	padding-top:17em;
@@ -268,7 +262,7 @@ animation-direction: unset;
     animation-name: cf3FadeInOut;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
-    animation-duration: 6s;
+    animation-duration: 20s;
     animation-direction: unset;
 }
 .banner h2{
