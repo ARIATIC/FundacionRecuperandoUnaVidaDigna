@@ -231,14 +231,14 @@ span.menu{
         background: url('../images/bnr3.jpg') no-repeat 0px 0px;
     }
 
-    33% {
+    25% {
         background: url('../images/Slide 3.jpg') no-repeat 0px 0px;
     }
 
-    66% {
+    50% {
         background: url('https://www.telemundo.com/sites/nbcutelemundo/files/images/media_gallery_cover/2015/08/26/tres-perros-en-un-sofa.jpg') no-repeat 0px 0px;
     }
-      100% {
+     100% {
         background: url('../images/bnr3.jpg') no-repeat 0px 0px;
     }
 }
@@ -247,7 +247,7 @@ span.menu{
 animation-name: cf3FadeInOut;
 animation-timing-function: ease-in-out;
 animation-iteration-count: infinite;
-animation-duration: 6s;
+animation-duration: 20s;
 animation-direction: unset;
 }
 
@@ -267,7 +267,7 @@ animation-direction: unset;
 }
 .banner h2{
 	color:#fff;
-	font-size:5em;
+	font-size:4em;
 	font-family: 'Dosis-Bold';
 }
 .slider {
@@ -284,7 +284,7 @@ animation-direction: unset;
   }
 .rslides h2{
 color:#fff;
-font-size: 5em;
+font-size: 4em;
     width: 92%;
     margin: 0 auto;
 	letter-spacing:2px;
@@ -292,7 +292,7 @@ font-size: 5em;
 }
 .rslides h3{
 color:#fff;
-font-size: 1.5em;
+font-size: 2em;
 margin-top:1em;
 text-transform:uppercase;
 }
