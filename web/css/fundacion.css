@@ -298,3 +298,16 @@ span.menu{
     left:200px;
 
 }
+
+.lenguaje{
+    position:absolute;
+    top:30px;
+    right:30px;
+    color:white;
+}
+
+.lenguaje a{
+    color:white;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:1.6em;
+}
